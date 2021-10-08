@@ -1,4 +1,12 @@
-let lowerCase = ["a", "b", "c", "d"];
-let upperCase = ["A", "B", "C", "D"];
-let numbers = [1, 2, 3, 4,];
-let signs = ["!", "#", "¤", "%"]; 
+let lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "æ", "ø", "å"];
+let upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "Æ", "Ø", "Å"];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let signs = ["!", "#", "¤", "%", "/", "(", ")", "=", "?", "|"]; 
+let passwordResult = "";
+let desiredPasswordLength = 20;
+
+
+let uppercaseChecked = true
+let lowercaseChecked = true
+let numbersChecked = false
+let symbolsChecked = false
